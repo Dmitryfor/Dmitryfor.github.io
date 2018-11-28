@@ -1,0 +1,14 @@
+.header {
+	height: 100vh;
+	background-image: url(../img/coffee.jpg);
+	background-size: cover;
+	position: top;
+	
+	&__text {
+		position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+	}
+}
